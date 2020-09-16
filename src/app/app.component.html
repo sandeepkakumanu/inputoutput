@@ -1,0 +1,9 @@
+<div style="text-align:center">
+  <p>
+    {{reply}}
+  </p>
+</div>
+
+
+<app-student  (studentEvent) ="reply = $event" [parentdata] ="task"></app-student>
+
